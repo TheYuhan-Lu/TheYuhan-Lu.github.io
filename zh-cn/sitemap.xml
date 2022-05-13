@@ -11,11 +11,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://TheYuhan-Lu.github.io/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-cn"
                 href="https://TheYuhan-Lu.github.io/zh-cn/"
                 />
@@ -26,11 +21,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://TheYuhan-Lu.github.io/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://TheYuhan-Lu.github.io/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -47,19 +37,14 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="https://TheYuhan-Lu.github.io/ar/post/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="zh-cn"
                 href="https://TheYuhan-Lu.github.io/zh-cn/post/"
                 />
   </url><url>
-    <loc>https://TheYuhan-Lu.github.io/zh-cn/categories/%E6%A0%87%E7%AD%BE/</loc>
+    <loc>https://TheYuhan-Lu.github.io/zh-cn/p/test-chinese/</loc>
     <lastmod>2022-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://TheYuhan-Lu.github.io/zh-cn/p/test-chinese/</loc>
+    <loc>https://TheYuhan-Lu.github.io/zh-cn/categories/%E6%A8%A1%E7%89%88/</loc>
     <lastmod>2022-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/zh-cn/page/</loc>
@@ -79,11 +64,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://TheYuhan-Lu.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://TheYuhan-Lu.github.io/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
