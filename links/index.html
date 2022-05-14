@@ -364,6 +364,70 @@ And also I provide you some links in the next showcase that you can easily get t
             </a>
         </article>
     
+        <article>
+            <a href="" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Adventure time wiki</h2>
+                    <footer class="article-time">
+                        
+                            
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title"></h2>
+                    <footer class="article-time">
+                        
+                            
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://adventuretime.fandom.com/wiki/Adventure_Time_Wiki" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title"></h2>
+                    <footer class="article-time">
+                        
+                            https://adventuretime.fandom.com/wiki/Adventure_Time_Wiki
+                        
+                    </footer>
+                </div>
+        
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title"></h2>
+                    <footer class="article-time">
+                        
+                            
+                        
+                    </footer>
+                </div>
+        
+                
+                    <div class="article-image">
+                        <img src="https://static.wikia.nocookie.net/adventuretimewithfinnandjake/images/4/49/Fionnaandcaketeaser.jpg/revision/latest/scale-to-width-down/670?cb=20210819164116" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
 </div>
     
 
@@ -372,47 +436,61 @@ And also I provide you some links in the next showcase that you can easily get t
      
     
         
-    <script src="https://utteranc.es/client.js" 
-        repo="TheYuhan-Lu/comments"
-        issue-term="pathname"
-        
-        label="Comment"
-        
-        crossorigin="anonymous"
-        async
-        >
-</script>
+    <link rel="stylesheet" href="/scss/partials/comments/disqusjs.min.css">
 
-<style>
-    .utterances {
-        max-width: unset;
-    }
-</style>
-
-<script>
-    function setUtterancesTheme(theme) {
-        let utterances = document.querySelector('.utterances iframe');
-        if (utterances) {
-            utterances.contentWindow.postMessage(
-                {
-                    type: 'set-theme',
-                    theme: `github-${theme}`
-                },
-                'https://utteranc.es'
-            );
+<div class="disqus-container">
+    <div id="disqus_thread"></div>
+    <script type="application/javascript">
+        let disqusjs;
+        function loadDisqusJS() {
+            disqusjs = new DisqusJS({
+                shortname: "theyuhan-lu",
+                siteName: "Yuhan Lu",
+                apikey: "mOPwXG77q4jsgcVeMRFCz82518jLYI6yiheLpQzsatXlyx4pjNeQCaJlP4YhCZt7",
+                
+                
+                
+            });
         }
-    }
 
-    addEventListener('message', event => {
-        if (event.origin !== 'https://utteranc.es') return;
-        setUtterancesTheme(document.documentElement.dataset.scheme)
-    });
+        function lazyLoadDisqusJS() {
+            if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+                document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+                return;
+            }
 
-    window.addEventListener('onColorSchemeChange', (e) => {
-        setUtterancesTheme(e.detail)
-    })
-</script>
+            let d = document.createElement('script');
+            d.src = 'https://cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqus.js';
+            d.async = false;
+            document.body.appendChild(d);
+            d.onload = () => {
+                loadDisqusJS();
+                window.addEventListener('onColorSchemeChange', (e) => {
+                    if (disqusjs) {
+                        loadDisqusJS();
+                    }
+                })
+            }
+        }
 
+        let runningOnBrowser = typeof window !== "undefined";
+        let isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+        let supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+
+        if (!isBot && supportsIntersectionObserver) {
+            let disqus_observer = new IntersectionObserver(function(entries) {
+                if (entries[0].isIntersecting) {
+                    lazyLoadDisqusJS();
+                    disqus_observer.disconnect();
+                }
+            });
+            disqus_observer.observe(document.getElementById('disqus_thread'));
+        } else {
+            lazyLoadDisqusJS();
+        }
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
 
     
 
