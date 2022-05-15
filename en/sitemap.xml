@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://TheYuhan-Lu.github.io/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -15,11 +15,8 @@
                 href="https://TheYuhan-Lu.github.io/"
                 />
   </url><url>
-    <loc>https://TheYuhan-Lu.github.io/p/a-new-start/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://TheYuhan-Lu.github.io/about/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -30,6 +27,22 @@
                 hreflang="en"
                 href="https://TheYuhan-Lu.github.io/about/"
                 />
+  </url><url>
+    <loc>https://TheYuhan-Lu.github.io/page/</loc>
+    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://TheYuhan-Lu.github.io/zh-cn/page/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://TheYuhan-Lu.github.io/page/"
+                />
+  </url><url>
+    <loc>https://TheYuhan-Lu.github.io/p/a-new-start/</loc>
+    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/categories/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
@@ -49,19 +62,6 @@
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/categories/others/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://TheYuhan-Lu.github.io/page/</loc>
-    <lastmod>2022-05-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://TheYuhan-Lu.github.io/zh-cn/page/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://TheYuhan-Lu.github.io/page/"
-                />
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/post/</loc>
     <lastmod>2022-05-13T00:00:00+00:00</lastmod>
@@ -91,6 +91,16 @@
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://TheYuhan-Lu.github.io/zh-cn/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://TheYuhan-Lu.github.io/archives/"
+                />
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/p/english-template-and-syntax-for-blog/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
@@ -102,8 +112,28 @@
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/links/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://TheYuhan-Lu.github.io/zh-cn/%E9%93%BE%E6%8E%A5/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://TheYuhan-Lu.github.io/links/"
+                />
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://TheYuhan-Lu.github.io/zh-cn/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://TheYuhan-Lu.github.io/search/"
+                />
   </url><url>
     <loc>https://TheYuhan-Lu.github.io/categories/test/</loc>
   </url>
